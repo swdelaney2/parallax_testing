@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+.empty {
+  position: relative;
+  height: 100vh;
+  z-index: -1;
+  background: transparent;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background: transparent;
+}
+
+
+.box {
+  position: relative;
+  background: rgba(15, 15, 15,.8);
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+
+
+.background_one {
+  top: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-size: cover;
+  z-index: -1;
+  background: url('./images/trey.jpg');
+}
+
+/*.one{
+  background: url('./images/ada.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.background_two {
+  position: relative;
+  background: url('./images/trey2.jpg');
+  height: 100vh;
+  padding-top: 500px;
+}
+
+.left {
+  float: left;
+  margin-left: 150px;
+}
+
+.right {
+  float: right;
+  margin-right: 150px;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
+  height: auto;
+  padding: 5px;
+}
+
+.promoted {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0px;
+}
+
+@media (min-width: 710px) {
+  .right {
+    margin-top: 200px;
+  }
+
+}
